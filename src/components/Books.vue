@@ -4,15 +4,11 @@
 		<form method="POST" v-on:submit.prevent="addTicket">
 			<div class="card">
 				<div class="card-header" data-background-color="green">
-					<p class="category">Add any number of books</p>
+					<p class="category">Add multiple books</p>
 				</div>
-
-
 				<div class="container">
 
 					<div class="row" v-for="(book, index) in library" :key="index">
-
-
 						<div class="col-md-4">
 							<div class="form-group" style="margin-top:20px;">
 								<label class="control-label">Date </label>
